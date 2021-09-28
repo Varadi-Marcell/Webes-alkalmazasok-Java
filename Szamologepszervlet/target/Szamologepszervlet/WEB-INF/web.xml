@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ResultDto</servlet-name>
+  	<display-name>ResultDto</display-name>
+  	<description></description>
+  	<servlet-class>szamologepszervlet.ResultDto</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SzamologepServlet</servlet-name>
+  	<display-name>SzamologepServlet</display-name>
+  	<description></description>
+  	<servlet-class>szamologepszervlet.SzamologepServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NotSupportedOperationException</servlet-name>
+  	<display-name>NotSupportedOperationException</display-name>
+  	<description></description>
+  	<servlet-class>szamologepszervlet.java.NotSupportedOperationException</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Szamologep</servlet-name>
+  	<display-name>Szamologep</display-name>
+  	<description></description>
+  	<servlet-class>szamologepszervlet.model.Szamologep</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ResultDto</servlet-name>
+  	<url-pattern>/ResultDto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SzamologepServlet</servlet-name>
+  	<url-pattern>/SzamologepServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NotSupportedOperationException</servlet-name>
+  	<url-pattern>/NotSupportedOperationException</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Szamologep</servlet-name>
+  	<url-pattern>/Szamologep</url-pattern>
+  </servlet-mapping>
+</web-app>
