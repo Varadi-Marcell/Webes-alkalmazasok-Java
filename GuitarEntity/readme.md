@@ -1,0 +1,1 @@
+Választott entitas.
