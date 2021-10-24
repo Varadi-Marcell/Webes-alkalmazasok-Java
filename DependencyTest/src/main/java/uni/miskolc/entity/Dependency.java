@@ -1,6 +1,9 @@
 package uni.miskolc.entity;
 
 public interface Dependency {
-    void helpParameterNoReturnValue();
+    void helpNoParameterNoReturnValue();
     int helpNoParameterReturnValue();
+    String importantString(String string);
+    void helpWithParameterNoReturnValue(int a);
+   
 }
